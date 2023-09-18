@@ -1,0 +1,33 @@
+{
+  "name": "maze:maze/xl_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "maze:xl_rooms/living_quarters",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 75,
+      "element": {
+        "location": "maze:xl_rooms/empty_long",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 25,
+      "element": {
+        "location": "maze:xl_rooms/librarian",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "maze:maze/walkways",
+  "fallback": "maze:maze/walkways",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "maze:paths/straight",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 50,
+      "element": {
+        "location": "maze:paths/turn",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 50,
+      "element": {
+        "location": "maze:paths/tee",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 50,
+      "element": {
+        "location": "maze:paths/cross",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "maze:paths/deadend",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "maze:paths/ladder_up",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 15,
+      "element": {
+        "location": "maze:paths/ladder_down",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 15,
+      "element": {
+        "location": "maze:paths/straight_door",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 15,
+      "element": {
+        "location": "maze:paths/xl_straight_bigrm_door",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
