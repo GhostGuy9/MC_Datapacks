@@ -1,22 +1,8 @@
 {
     "processors": [
         {
-            "processor_type": "rule",
-            "rules": [
-                {
-                    "input_predicate": {
-                        "predicate_type": "random_block_match",
-                        "block": "cobblestone",
-                        "probability": 0.25
-                    },
-                    "output_state": {
-                        "Name": "minecraft:mossy_cobblestone"
-                    },
-                    "location_predicate": {
-                        "predicate_type": "always_true"
-                    }
-                }
-            ]
+            "processor_type": "block_age",
+            "mossiness": 0.05
         }
     ]
 }
