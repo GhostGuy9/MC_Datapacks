@@ -1,12 +1,12 @@
 {
   "name": "maze:maze/rooms",
-  "fallback": "minecraft:empty",
+  "fallback": "maze:maze/maze_rooms_fallback",
   "elements": [
     {
-      "weight": 50,
+      "weight": 25,
       "element": {
         "location": "maze:rooms/bed",
-        "processors": "minecraft:empty",
+        "processors": "maze:maze_decay",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 75,
       "element": {
         "location": "maze:rooms/sandy",
-        "processors": "minecraft:empty",
+        "processors": "maze:maze_decay",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

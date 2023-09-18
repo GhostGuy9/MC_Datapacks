@@ -1,11 +1,11 @@
 {
-  "name": "maze:maze/starting_maze",
+  "name": "maze:maze/maze_fallback",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 100,
       "element": {
-        "location": "maze:start",
+        "location": "maze:deadend",
         "processors": "maze:maze_decay",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
