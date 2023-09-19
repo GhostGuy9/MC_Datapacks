@@ -5,7 +5,7 @@
     {
       "weight": 100,
       "element": {
-        "location": "maze:deadend",
+        "location": "maze:paths/deadend",
         "processors": "maze:maze_decay",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
