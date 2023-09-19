@@ -3,7 +3,7 @@
   "fallback": "maze:maze/maze_fallback",
   "elements": [
     {
-      "weight": 75,
+      "weight": 50,
       "element": {
         "location": "maze:paths/straight",
         "processors": "maze:maze_decay",
@@ -84,7 +84,7 @@
         }
       },
 	  {
-        "weight": 25,
+        "weight": 50,
         "element": {
           "location": "maze:paths/large_straight_bigrm_door",
           "processors": "maze:maze_decay",

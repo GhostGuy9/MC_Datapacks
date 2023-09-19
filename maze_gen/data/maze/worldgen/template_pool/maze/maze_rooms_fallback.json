@@ -5,7 +5,7 @@
     {
       "weight": 100,
       "element": {
-        "location": "maze:sandy",
+        "location": "maze:rooms/sandy",
         "processors": "maze:maze_decay",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
