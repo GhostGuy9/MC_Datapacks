@@ -1,0 +1,33 @@
+{
+  "name": "maze:maze/walkways_branch",
+  "fallback": "maze:maze/maze_fallback",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "maze:paths/straight",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "maze:paths/large_straight",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 75,
+      "element": {
+        "location": "maze:paths/xl_straight",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

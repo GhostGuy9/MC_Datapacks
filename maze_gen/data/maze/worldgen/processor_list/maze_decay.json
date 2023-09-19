@@ -2,7 +2,7 @@
     "processors": [
         {
             "processor_type": "block_age",
-            "mossiness": 0.05
+            "mossiness": 0.00
         }
     ]
 }
