@@ -1,0 +1,24 @@
+{
+  "name": "maze:maze/mobs/living",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 90,
+      "element": {
+        "location": "maze:mobs/living/villager",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "maze:mobs/living/cat",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -11,10 +11,37 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
+	  {
+        "weight": 90,
+        "element": {
+          "location": "maze:paths/straight_door",
+          "processors": "maze:maze_decay",
+	  	"projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+	  {
+        "weight": 90,
+        "element": {
+          "location": "maze:large_paths/straight_bigrm_door",
+          "processors": "maze:maze_decay",
+	  	    "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+    {
+        "weight": 90,
+        "element": {
+            "location": "maze:large_paths/straight_open_room",
+            "processors": "maze:maze_decay",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
     {
       "weight": 25,
       "element": {
-        "location": "maze:paths/large_straight",
+        "location": "maze:large_paths/straight",
         "processors": "maze:maze_decay",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -30,7 +57,7 @@
       }
     },
       {
-        "weight": 25,
+        "weight": 5,
         "element": {
           "location": "maze:paths/stairs",
           "processors": "maze:maze_decay",
@@ -48,7 +75,7 @@
         }
       },
 	  {
-        "weight": 50,
+        "weight": 25,
         "element": {
           "location": "maze:paths/tee",
           "processors": "maze:maze_decay",
@@ -57,40 +84,13 @@
         }
       },
 	  {
-        "weight": 50,
+        "weight": 25,
         "element": {
           "location": "maze:paths/cross",
           "processors": "maze:maze_decay",
 	  	"projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
-      },
-	  {
-        "weight": 75,
-        "element": {
-          "location": "maze:paths/straight_door",
-          "processors": "maze:maze_decay",
-	  	"projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
-	  {
-        "weight": 75,
-        "element": {
-          "location": "maze:paths/large_straight_bigrm_door",
-          "processors": "maze:maze_decay",
-	  	    "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
-    {
-        "weight": 75,
-        "element": {
-            "location": "maze:paths/large_straight_open_room",
-            "processors": "maze:maze_decay",
-            "projection": "rigid",
-            "element_type": "minecraft:single_pool_element"
-        }
-    }
+      }
   ]
 }

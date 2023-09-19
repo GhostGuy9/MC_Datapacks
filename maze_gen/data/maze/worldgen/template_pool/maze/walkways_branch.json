@@ -14,16 +14,25 @@
     {
       "weight": 50,
       "element": {
-        "location": "maze:paths/large_straight",
+        "location": "maze:large_paths/straight",
         "processors": "maze:maze_decay",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 75,
+      "weight": 50,
       "element": {
         "location": "maze:paths/xl_straight",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "maze:large_paths/turn",
         "processors": "maze:maze_decay",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
