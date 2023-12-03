@@ -1,7 +1,7 @@
 {
     "processors": [
         {
-            "processor_type": "block_age",
+            "processor_type": "nop",
             "mossiness": 0.00
         }
     ]

@@ -12,7 +12,7 @@
       }
     },
 	{
-      "weight": 75,
+      "weight": 25,
       "element": {
         "location": "maze:large_rooms/librarian",
         "processors": "maze:maze_decay",
@@ -21,13 +21,22 @@
       }
     },
 	{
-      "weight": 25,
+      "weight": 75,
       "element": {
         "location": "maze:large_rooms/living_quarters",
         "processors": "maze:maze_decay",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
-    }
+    },
+    {
+        "weight": 25,
+        "element": {
+          "location": "maze:large_rooms/shared_beds",
+          "processors": "maze:maze_decay",
+      "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
   ]
 }
