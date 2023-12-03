@@ -1,0 +1,33 @@
+{
+  "name": "maze:maze/starting_maze_bottoms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "maze:floor_two",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "maze:floor_one",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "maze:mid_ladder",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
