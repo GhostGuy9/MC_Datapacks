@@ -56,18 +56,6 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-<<<<<<< HEAD
-=======
-      {
-        "weight": 5,
-        "element": {
-          "location": "maze:paths/stairs",
-          "processors": "maze:maze_decay",
-		      "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
->>>>>>> 214236c7fdad33c22886bdd722850f797269f4ad
 	  {
         "weight": 25,
         "element": {
