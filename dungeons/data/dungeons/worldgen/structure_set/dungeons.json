@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "maze:maze",
+      "structure": "dungeons:dungeon",
       "weight": 1
     }
   ],

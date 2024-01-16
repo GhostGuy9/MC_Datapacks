@@ -1,9 +1,9 @@
 {
   "name": "dungeons:dungeons/hallways",
-  "fallback": "minecraft:empty",
+  "fallback": "dungeons:dungeons/dead_end",
   "elements": [
     {
-      "weight": 90,
+      "weight": 75,
       "element": {
         "location": "dungeons:paths/straight",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 90,
+      "weight": 15,
       "element": {
         "location": "dungeons:paths/stairs",
         "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
       }
     },
 	  {
-        "weight": 90,
+        "weight": 25,
         "element": {
           "location": "dungeons:paths/corner",
           "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
         }
       },
 	  {
-        "weight": 90,
+        "weight": 75,
         "element": {
           "location": "dungeons:paths/tee",
           "processors": "minecraft:empty",
@@ -39,13 +39,13 @@
         }
       },
 	  {
-        "weight": 90,
+        "weight": 25,
         "element": {
           "location": "dungeons:paths/cross",
           "processors": "minecraft:empty",
 	  	    "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
-      }
+    }
   ]
 }
