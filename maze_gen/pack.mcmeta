@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 22,
+		"pack_format": 27,
 		"description": "GhostGuy's Maze Dungeon Generator"
 	}
 }
