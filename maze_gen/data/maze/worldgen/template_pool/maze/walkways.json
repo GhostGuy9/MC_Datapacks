@@ -3,7 +3,7 @@
   "fallback": "maze:maze/maze_fallback",
   "elements": [
     {
-      "weight": 25,
+      "weight": 90,
       "element": {
         "location": "maze:paths/straight",
         "processors": "maze:maze_decay",
@@ -41,6 +41,15 @@
     {
       "weight": 25,
       "element": {
+        "location": "maze:paths/stairs",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
         "location": "maze:large_paths/straight",
         "processors": "maze:maze_decay",
 		    "projection": "rigid",
@@ -51,6 +60,15 @@
       "weight": 25,
       "element": {
         "location": "maze:paths/xl_straight",
+        "processors": "maze:maze_decay",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "maze:paths/xl_cross",
         "processors": "maze:maze_decay",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
