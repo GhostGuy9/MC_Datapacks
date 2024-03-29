@@ -1,26 +1,25 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "equipment",
-    "ingredients": [
-      {
-        "item": "minecraft:pufferfish"
-      }
-    ],
-    "result": {
-      "id": "minecraft:pufferfish",
-      "count": 1,
-      "components": {
-        "minecraft:tool": {
-          "rules": [
-            {
-              "blocks": "#minecraft:mineable/pickaxe",
-              "speed": 4,
-              "correct_for_drops": true
-            }
-          ]
-        },
-        "minecraft:item_name": "Pufferfish Pickaxe"
-      }
+  "type": "minecraft:crafting_shapeless",
+  "group": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:pufferfish"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pufferfish",
+    "count": 1,
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 4,
+            "correct_for_drops": true
+          }
+        ]
+      },
+      "minecraft:item_name": "{'text':'Pufferfish Pickaxe'}"
     }
   }
-  
+}
