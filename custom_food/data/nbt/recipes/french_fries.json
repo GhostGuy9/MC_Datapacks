@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "id": "minecraft:baked_potato",
+    "count": 4,
+    "components": {
+      "minecraft:item_name": "{'text':'French Fries'}",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.2
+      },
+      "minecraft:custom_model_data": 1,
+      "minecraft:custom_data": {
+        "french_fries": 1
+      }
+    }
+  }
+}
