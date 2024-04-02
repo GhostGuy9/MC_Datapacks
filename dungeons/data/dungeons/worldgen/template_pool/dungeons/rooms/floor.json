@@ -1,9 +1,9 @@
 {
-  "name": "dungeons:dungeons/rooms/floors",
-  "fallback": "minecraft:empty",
+  "name": "dungeons:dungeons/rooms/floor",
+  "fallback": "dungeons:dungeons/hallways",
   "elements": [
     {
-      "weight": 100,
+      "weight": 75,
       "element": {
         "location": "dungeons:rooms/floor",
         "processors": "minecraft:empty",

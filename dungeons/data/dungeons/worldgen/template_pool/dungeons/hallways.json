@@ -3,7 +3,7 @@
   "fallback": "dungeons:dungeons/dead_end",
   "elements": [
     {
-      "weight": 50,
+      "weight": 10,
       "element": {
         "location": "dungeons:rooms/entry",
         "processors": "minecraft:empty",
