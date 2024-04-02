@@ -3,6 +3,15 @@
   "fallback": "dungeons:dungeons/dead_end",
   "elements": [
     {
+      "weight": 50,
+      "element": {
+        "location": "dungeons:rooms/entry",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 75,
       "element": {
         "location": "dungeons:paths/straight",
